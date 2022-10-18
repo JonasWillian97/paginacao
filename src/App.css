@@ -1,0 +1,27 @@
+
+*{
+  background-color: #ececec;
+}
+
+.item {
+  width: 500px;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.paginationButton {
+  background-color: aliceblue;
+  border: 1px solid blue;
+  color: blue;
+  margin-right: 5px;
+  height: 20px;
+  margin-top: 2px;
+}
+
+.paginationButton:hover {
+  background-color: blue;
+  color: aliceblue;
+}
